@@ -5,103 +5,111 @@ import teamShape from "../../public/images/team/team-shape.png";
 
 const teamData = [
   {
-    image: "/images/team/team1.png",
-    name: "Karen Peter",
+    image: "/images/team/neelanjan.png",
+    name: "Neelanjan Chakraborty",
     designation: "CEO & Founder",
     aosDelay: "100",
 
     socialLinks: [
       {
-        iconName: "bx bxl-facebook",
-        url: "https://facebook.com/",
-      },
-      {
-        iconName: "bx bxl-twitter",
-        url: "https://twitter.com/",
-      },
-      {
         iconName: "bx bxl-linkedin",
         url: "https://linkedin.com/",
-      },
-      {
-        iconName: "bx bxl-pinterest-alt",
-        url: "https://pinterest.com/",
       },
     ],
   },
   {
-    image: "/images/team/team2.png",
-    name: "Alex Piter",
-    designation: "Executive",
+    image: "/images/team/anurag.png",
+    name: "Anurag Moharana",
+    designation: "DevOps Architect",
     aosDelay: "200",
 
     socialLinks: [
       {
-        iconName: "bx bxl-facebook",
-        url: "https://facebook.com/",
-      },
-      {
-        iconName: "bx bxl-twitter",
-        url: "https://twitter.com/",
-      },
-      {
         iconName: "bx bxl-linkedin",
         url: "https://linkedin.com/",
-      },
-      {
-        iconName: "bx bxl-pinterest-alt",
-        url: "https://pinterest.com/",
       },
     ],
   },
   {
-    image: "/images/team/team3.png",
-    name: "Alisa Maria",
-    designation: "Web Developer",
+    image: "/images/team/alok.png",
+    name: "Aloknath",
+    designation: "Software Developer",
     aosDelay: "300",
 
     socialLinks: [
       {
-        iconName: "bx bxl-facebook",
-        url: "https://facebook.com/",
-      },
-      {
-        iconName: "bx bxl-twitter",
-        url: "https://twitter.com/",
-      },
-      {
         iconName: "bx bxl-linkedin",
         url: "https://linkedin.com/",
-      },
-      {
-        iconName: "bx bxl-pinterest-alt",
-        url: "https://pinterest.com/",
       },
     ],
   },
   {
-    image: "/images/team/team4.png",
-    name: "Peter Jack",
-    designation: "UI/UX Designer",
+    image: "/images/team/satyajit.png",
+    name: "Satyajit Sahoo",
+    designation: "Backend Developer",
     aosDelay: "400",
 
     socialLinks: [
       {
-        iconName: "bx bxl-facebook",
-        url: "https://facebook.com/",
+        iconName: "bx bxl-linkedin",
+        url: "https://linkedin.com/",
       },
-      {
-        iconName: "bx bxl-twitter",
-        url: "https://twitter.com/",
-      },
+    ],
+  },
+  {
+    image: "/images/team/deb.png",
+    name: "Debashsih Mohapatra",
+    designation: "Data Scientist",
+    aosDelay: "400",
+
+    socialLinks: [
       {
         iconName: "bx bxl-linkedin",
         url: "https://linkedin.com/",
       },
+
+    ],
+  },
+  {
+    image: "/images/team/team1.png",
+    name: "Omar Faruq",
+    designation: "Frontend Devloper ( React)",
+    aosDelay: "400",
+
+    socialLinks: [
       {
-        iconName: "bx bxl-pinterest-alt",
-        url: "https://pinterest.com/",
+        iconName: "bx bxl-linkedin",
+        url: "https://linkedin.com/",
       },
+
+    ],
+  },
+  {
+    image: "/images/team/team2.png",
+    name: "Javier Castillo",
+    designation: "UI UX Designer",
+    aosDelay: "400",
+
+    socialLinks: [
+      {
+        iconName: "bx bxl-linkedin",
+        url: "https://linkedin.com/",
+      },
+
+    ],
+  },
+  {
+    image: "/images/team/team3.png",
+    name: "Helen S. Guzman",
+    designation: "Backend Devloper ( Node.js)",
+    aosDelay: "400",
+
+    socialLinks: [
+      {
+        iconName: "bx bxl-linkedin",
+        url: "https://linkedin.com/",
+      },
+
     ],
   },
 ];
@@ -115,15 +123,13 @@ const Team = () => {
             <span>Team</span>
             <h2>Meet Our Expert Team</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-              eos ea obcaecati et similique incidunt animi, sed, quos officiis
-              placeat. Id ipsa molestias.
+            Our team consists of highly skilled professionals dedicated to delivering the best results for our clients.
             </p>
           </div>
 
           <div className="row justify-content-center">
             {teamData &&
-              teamData.slice(0, 4).map((value, i) => (
+              teamData.slice(0, 8).map((value, i) => (
                 <div
                   className="col-lg-3 col-sm-6"
                   data-aos="fade-in"
