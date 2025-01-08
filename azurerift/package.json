@@ -10,20 +10,25 @@
     "author": "EnvyTheme.com",
     "license": "ISC",
     "dependencies": {
+        "@react-three/drei": "^9.120.4",
+        "@react-three/fiber": "^8.17.10",
         "animate.css": "^4.1.1",
         "aos": "^2.3.4",
         "axios": "^1.6.7",
         "fslightbox-react": "^1.7.6",
+        "lucide-react": "^0.469.0",
         "next": "^14.1.0",
         "nodemailer": "^6.9.8",
         "nodemailer-sendgrid-transport": "^0.2.0",
         "react": "^18.2.0",
         "react-accessible-accordion": "^5.0.0",
         "react-dom": "^18.2.0",
+        "react-icons": "^5.4.0",
         "sass": "^1.70.0",
         "sharp": "^0.33.2",
         "sweetalert2": "^11.10.4",
         "sweetalert2-react-content": "^5.0.7",
-        "swiper": "^11.0.5"
+        "swiper": "^11.0.5",
+        "three": "^0.171.0"
     }
 }

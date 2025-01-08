@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import aboutImg from "../../public/images/about-img.png";
+import aboutImg from "../../public/images/about-img-three.png";
 
 const About = () => {
   return (
@@ -11,22 +11,19 @@ const About = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
-              <div className="about-img">
-                <Image src={aboutImg} alt="Image" width={490} height={420} />
-              </div>
+               <div className="about-img">
+                 <Image src={aboutImg} alt="Image" width={375} height={440} />
+               </div>
             </div>
 
             <div className="col-lg-6">
               <div className="about-content">
-                <span>About Us</span>
+                <span>About Azure Rift</span>
                 <h2>
-                  We Complete Every Project With Extra Care As Customer Need
+                  A Multi-Domain Consultancy Firm Providing Innovative Solutions
                 </h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel.
+                  Azure Rift is a dynamic consultancy firm offering cutting-edge solutions across various domains. We specialize in software development, AI & ML solutions, digital marketing, animation, VFX, robotics, drones, cybersecurity, and blockchain. Founded in 2018 as a startup under the SACC India Startup Accelerator, we are driven by a passion for innovation and excellence. Our founders, Nessan Irani and Neelanjan Chakraborty, have built a team that is committed to delivering results that exceed expectations.
                 </p>
 
                 <div className="row">
@@ -34,15 +31,15 @@ const About = () => {
                     <ul>
                       <li>
                         <i className="flaticon-checked"></i>
-                        Advanced caching
+                        Expert Software Development Services
                       </li>
                       <li>
                         <i className="flaticon-checked"></i>
-                        Unlimited applications
+                        Cutting-Edge AI & ML Solutions
                       </li>
                       <li>
                         <i className="flaticon-checked"></i>
-                        PHP 7 ready transfer
+                        Advanced Digital Marketing Strategies
                       </li>
                     </ul>
                   </div>
@@ -51,15 +48,15 @@ const About = () => {
                     <ul>
                       <li>
                         <i className="flaticon-checked"></i>
-                        PHP ready serves
+                        High-Quality Animation & VFX Services
                       </li>
                       <li>
                         <i className="flaticon-checked"></i>
-                        24/7 Free extra support
+                        Robotics & Drone Technologies
                       </li>
                       <li>
                         <i className="flaticon-checked"></i>
-                        Optimized stack
+                        Robust Cybersecurity & Blockchain Solutions
                       </li>
                     </ul>
                   </div>

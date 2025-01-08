@@ -25,10 +25,7 @@ const Footer = () => {
                 </Link>
 
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Quaerat molestiae corporis, magni maxime perferendis ducimus
-                  totam officiis sit exercitationem sed odio debitis minus
-                  cumque dolores dicta.
+                  We are a passionate team dedicated to delivering innovative and scalable solutions. From design to deployment, we help businesses across industries drive growth through technology and services.
                 </p>
 
                 <ul className="social-icon">
@@ -63,30 +60,30 @@ const Footer = () => {
                 data-aos-duration="1200"
                 data-aos-delay="300"
               >
-                <h3>Services</h3>
+                <h3>Our Services</h3>
                 <ul>
                   <li>
                     <Link href="/services/service-details/">
                       <i className="right-icon bx bx-chevrons-right"></i>
-                      Big Data
+                      Big Data Solutions
                     </Link>
                   </li>
                   <li>
                     <Link href="/services/service-details/">
                       <i className="right-icon bx bx-chevrons-right"></i>
-                      UI/UX Design
+                      UI/UX Design & Development
                     </Link>
                   </li>
                   <li>
                     <Link href="/services/service-details/">
                       <i className="right-icon bx bx-chevrons-right"></i>
-                      Desktop Application
+                      Desktop Applications
                     </Link>
                   </li>
                   <li>
                     <Link href="/services/service-details/">
                       <i className="right-icon bx bx-chevrons-right"></i>
-                      Mobile Application
+                      Mobile App Development
                     </Link>
                   </li>
                   <li>
@@ -124,7 +121,7 @@ const Footer = () => {
                   <li>
                     <Link href="/services">
                       <i className="right-icon bx bx-chevrons-right"></i>
-                      Services
+                      Our Services
                     </Link>
                   </li>
                   <li>
@@ -136,13 +133,13 @@ const Footer = () => {
                   <li>
                     <Link href="/team">
                       <i className="right-icon bx bx-chevrons-right"></i>
-                      Team
+                      Our Team
                     </Link>
                   </li>
                   <li>
                     <Link href="/contact">
                       <i className="right-icon bx bx-chevrons-right"></i>
-                      Support
+                      Contact Support
                     </Link>
                   </li>
                   <li>
@@ -162,25 +159,27 @@ const Footer = () => {
                 data-aos-duration="1200"
                 data-aos-delay="500"
               >
-                <h3>Information</h3>
+                <h3>Contact Information</h3>
 
                 <ul className="information">
                   <li className="address">
                     <i className="flaticon-call"></i>
                     <span>Phone</span>
-                    +882-569-756
+                    <a href="tel:+918455678901">+91 8455678901</a>
                   </li>
 
                   <li className="address">
                     <i className="flaticon-envelope"></i>
                     <span>Email</span>
-                    hello@jumpx.com
+                    <a href="mailto:neelanjan.chakraborty@azurerift.in">
+                      neelanjan.chakraborty@azurerift.in
+                    </a>
                   </li>
 
                   <li className="address">
                     <i className="flaticon-maps-and-flags"></i>
                     <span>Address</span>
-                    123, Western Road, Melbourne Australia
+                    456, Brigade Road, Bangalore, Karnataka, India
                   </li>
                 </ul>
               </div>
@@ -194,13 +193,13 @@ const Footer = () => {
         </div>
       </footer>
 
-      {/* Footer Bottom Area   */}
+      {/* Footer Bottom Area */}
       <footer className="footer-bottom-area">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-4">
               <div className="copy-right">
-                <p>Copyright &copy; {currentYear} Jumpx. All Rights Reserved</p>
+                <p>Copyright &copy; {currentYear} AzureRift. All Rights Reserved</p>
               </div>
             </div>
 
@@ -221,8 +220,8 @@ const Footer = () => {
               <div className="designed">
                 <p>
                   Designed By <i className="bx bx-heart"></i>{" "}
-                  <a href="https://envytheme.com/" target="_blank">
-                    EnvyTheme
+                  <a href="https://neelanjanchakraborty.in/" target="_blank">
+                    Neelanjan Chakraborty
                   </a>
                 </p>
               </div>

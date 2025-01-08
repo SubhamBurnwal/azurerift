@@ -7,6 +7,7 @@ import Testimonials from "../components/Common/Testimonials";
 import TeamTwo from "../components/Common/TeamTwo";
 import Partner from "../components/Common/Partner";
 import Footer from "../components/Layouts/Footer";
+import WhyChooseUs from "../components/AboutTwo/WhyChooseUs";
 
 export default function AboutPage() {
   return (
@@ -14,13 +15,16 @@ export default function AboutPage() {
       <Navbar />
 
       <PageBanner
-        pageTitle="About Style One"
+        pageTitle="About"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="About Style One"
+        activePageText="About"
       />
 
       <About />
+
+      <WhyChooseUs />
+
 
       <MakeYourBusiness />
 

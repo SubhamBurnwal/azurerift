@@ -9,32 +9,28 @@ const MakeYourBusiness = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="business-content">
-                <h2>Make Your Business More Competitive And Enduring</h2>
+                <h2>Boost Your Business with AI-Powered Innovation</h2>
               </div>
 
               <div className="single-business">
                 <i className="flaticon-chip"></i>
-                <h3>AI Will Automate Cybersecurity Improve</h3>
+                <h3>AI-Driven Automation for Cybersecurity</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore. Quis ipsum
-                  suspendisse ultrices gravida suspendisse.
+                  Our AI solutions enhance your cybersecurity by automatically identifying threats, reducing human error, and enabling faster responses to potential breaches, keeping your business secure.
                 </p>
               </div>
 
               <div className="single-business">
                 <i className="flaticon-blockchain"></i>
-                <h3>A Community With A Unique Mission</h3>
+                <h3>Join a Community of Visionary Innovators</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore. Quis ipsum
-                  suspendisse ultrices gravida suspendisse.
+                  Be part of a growing network dedicated to harnessing the power of AI and data analytics to transform industries, create new opportunities, and drive business growth.
                 </p>
               </div>
 
               <div className="business-btn">
                 <Link href="/about-2" className="default-btn">
-                  Know Details
+                  Learn More About Our Platform
                 </Link>
               </div>
             </div>
@@ -51,7 +47,7 @@ const MakeYourBusiness = () => {
                     <h2>
                       <span className="target">95%</span>
                     </h2>
-                    <p>Project Completed</p>
+                    <p>Projects Successfully Completed</p>
                   </div>
                 </div>
 
@@ -65,7 +61,7 @@ const MakeYourBusiness = () => {
                     <h2>
                       <span className="target">90%</span>
                     </h2>
-                    <p>Design</p>
+                    <p>Design Excellence</p>
                   </div>
                 </div>
 
@@ -79,7 +75,7 @@ const MakeYourBusiness = () => {
                     <h2>
                       <span className="target">85%</span>
                     </h2>
-                    <p>Happy Clients</p>
+                    <p>Satisfied Clients</p>
                   </div>
                 </div>
 
@@ -93,7 +89,7 @@ const MakeYourBusiness = () => {
                     <h2>
                       <span className="target">80</span>
                     </h2>
-                    <p>Award Win</p>
+                    <p>Awards Won for Excellence</p>
                   </div>
                 </div>
               </div>

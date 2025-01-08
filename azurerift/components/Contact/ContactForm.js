@@ -10,8 +10,8 @@ import contactImg from "../../public/images/contact-img.png";
 
 const alertContent = () => {
   MySwal.fire({
-    title: "Congratulations!",
-    text: "Your message was successfully send and will back to you soon",
+    title: "Thank You!",
+    text: "Your message has been successfully sent. We'll get back to you shortly.",
     icon: "success",
     timer: 2000,
     timerProgressBar: true,
@@ -34,7 +34,6 @@ const ContactForm = () => {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setContact((prevState) => ({ ...prevState, [name]: value }));
-    // console.log(contact)
   };
 
   const handleSubmit = async (e) => {
@@ -56,12 +55,10 @@ const ContactForm = () => {
     <div className="main-contact-area pb-100">
       <div className="container">
         <div className="section-title">
-          <span>Contact Us</span>
-          <h2>Drop us a message for any query</h2>
+          <span>Get in Touch</span>
+          <h2>Have Questions or Want to Collaborate?</h2>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
-            quibusdam deleniti porro praesentium. Aliquam minus quisquam velit
-            in at nam.
+            Whether you're an animator, a tech enthusiast, or just curious about how we combine creativity and technology, we’d love to hear from you. Drop us a message, and we’ll get back to you as soon as possible.
           </p>
         </div>
 
@@ -76,7 +73,7 @@ const ContactForm = () => {
                         <input
                           type="text"
                           name="name"
-                          placeholder="Name"
+                          placeholder="Your Name"
                           className="form-control"
                           value={contact.name}
                           onChange={handleChange}
@@ -90,7 +87,7 @@ const ContactForm = () => {
                         <input
                           type="text"
                           name="email"
-                          placeholder="Email"
+                          placeholder="Your Email"
                           className="form-control"
                           value={contact.email}
                           onChange={handleChange}
@@ -104,7 +101,7 @@ const ContactForm = () => {
                         <input
                           type="text"
                           name="number"
-                          placeholder="Phone number"
+                          placeholder="Phone Number"
                           className="form-control"
                           value={contact.number}
                           onChange={handleChange}
@@ -133,7 +130,7 @@ const ContactForm = () => {
                           name="text"
                           cols="30"
                           rows="6"
-                          placeholder="Write your message..."
+                          placeholder="Write your message here..."
                           className="form-control"
                           value={contact.text}
                           onChange={handleChange}

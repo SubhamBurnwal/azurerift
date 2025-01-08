@@ -22,17 +22,13 @@ const FaqContent = () => {
                   <AccordionItem uuid="a">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        What Are The Business Advisory Company?
+                        What is AzureRift all about?
                       </AccordionItemButton>
                     </AccordionItemHeading>
 
                     <AccordionItemPanel>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                        Risus commodo viverra maecenas accumsan lacus vel
-                        facilisis.
+                        AzureRift is a creative studio that combines the worlds of animation, CGI, AI, and web development. We create exceptional digital experiences by merging storytelling with cutting-edge technology. Whether through animation, interactive web applications, or AI-powered solutions, we bring your ideas to life in new and exciting ways.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -40,17 +36,13 @@ const FaqContent = () => {
                   <AccordionItem uuid="b">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        Research Is What Makes An Effective Business Plan?
+                        How did AzureRift get started?
                       </AccordionItemButton>
                     </AccordionItemHeading>
 
                     <AccordionItemPanel>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                        Risus commodo viverra maecenas accumsan lacus vel
-                        facilisis.
+                        AzureRift was founded by a diverse team of animators, developers, and tech enthusiasts. Our journey began with a shared passion for blending creativity with technology. We’ve grown from a small team of dreamers into a forward-thinking studio that integrates animation, CGI, AI, and web development into every project we touch.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -58,16 +50,12 @@ const FaqContent = () => {
                   <AccordionItem uuid="c">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        How Achieving Small Business Success?
+                        How does AI fit into your animation and web development work?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                        Risus commodo viverra maecenas accumsan lacus vel
-                        facilisis.
+                        AI plays a key role at AzureRift in streamlining workflows, enhancing creative processes, and offering innovative solutions. From AI-driven animation tools to building smart web applications, we use AI to automate repetitive tasks, analyze user behavior, and create dynamic and personalized user experiences.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -75,16 +63,12 @@ const FaqContent = () => {
                   <AccordionItem uuid="d">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        Why Business Planing Is Important?
+                        What technologies do you use for web development at AzureRift?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                        Risus commodo viverra maecenas accumsan lacus vel
-                        facilisis.
+                        At AzureRift, we use a range of modern web technologies including React.js, Next.js, and Node.js to build scalable, interactive, and high-performance web applications. We also integrate AI and machine learning models to provide customized solutions for our clients, ensuring that each project is both cutting-edge and future-proof.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -92,16 +76,25 @@ const FaqContent = () => {
                   <AccordionItem uuid="e">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        How Do You Startup?
+                        How does AzureRift combine creativity with technology?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                        Risus commodo viverra maecenas accumsan lacus vel
-                        facilisis.
+                        Creativity and technology go hand in hand at AzureRift. We use technology not just to improve efficiency, but also to enhance our creative potential. Whether it’s using AI for animation, developing web apps with innovative features, or applying the latest CGI techniques, we ensure that every project we deliver is both artistically inspiring and technically advanced.
+                      </p>
+                    </AccordionItemPanel>
+                  </AccordionItem>
+
+                  <AccordionItem uuid="f">
+                    <AccordionItemHeading>
+                      <AccordionItemButton>
+                        How can I collaborate with AzureRift?
+                      </AccordionItemButton>
+                    </AccordionItemHeading>
+                    <AccordionItemPanel>
+                      <p>
+                        Whether you're a storyteller, a business looking to leverage AI, or a developer seeking creative collaboration, we'd love to work with you. Reach out to us to discuss how we can bring your project to life through the fusion of animation, AI, web development, and innovative design.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>

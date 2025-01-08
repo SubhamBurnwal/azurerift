@@ -13,11 +13,11 @@ const News = () => {
         <div className="container">
           <div className="section-title home-four-section-title">
             <span>Latest News</span>
-            <h2>Our Recent News </h2>
+            <h2>Our Recent News</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut
-              ipsum fugit temporibus possimus itaque accusamus voluptatibus
-              dignissimos nobis eaque.
+              Stay updated with the latest trends in AI and technology. Our team
+              is working hard to bring you the most relevant news, tips, and
+              insights.
             </p>
           </div>
 
@@ -57,12 +57,13 @@ const News = () => {
                   </ul>
 
                   <Link href="/news/news-details">
-                    <h3>Is Machine Learning Right For You</h3>
+                    <h3>Understanding the Impact of Machine Learning</h3>
                   </Link>
 
                   <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Fuga veritatis veniam corrupti perferendis minima in.
+                    Explore how machine learning is shaping industries, from
+                    healthcare to finance. Learn about its capabilities and
+                    challenges.
                   </p>
 
                   <Link href="/news/news-details" className="read-more">
@@ -107,12 +108,13 @@ const News = () => {
                   </ul>
 
                   <Link href="/news/news-details">
-                    <h3>The State Of Artificial Intelligence</h3>
+                    <h3>The Future of Artificial Intelligence</h3>
                   </Link>
 
                   <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Fuga veritatis veniam corrupti perferendis minima in.
+                    Get insights into how AI is transforming various sectors.
+                    Discover the latest trends in AI research and its potential
+                    impact.
                   </p>
 
                   <Link href="/news/news-details" className="read-more">
@@ -157,12 +159,13 @@ const News = () => {
                   </ul>
 
                   <Link href="/news/news-details">
-                    <h3>Our Company Machine Learning </h3>
+                    <h3>How Our Company Leverages Machine Learning</h3>
                   </Link>
 
                   <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Fuga veritatis veniam corrupti perferendis minima in.
+                    Learn how our company utilizes machine learning to optimize
+                    internal processes and provide better services to our
+                    clients. Discover the tools and techniques we use.
                   </p>
 
                   <Link href="/news/news-details" className="read-more">

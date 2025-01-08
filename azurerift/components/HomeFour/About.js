@@ -30,13 +30,10 @@ const About = () => {
               >
                 <span>About Us</span>
                 <h2>
-                  We Complete Every Project With Extra Care As Customer Need
+                  Delivering Excellence in Every Project We Undertake
                 </h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel.
+                  Our mission is to drive success by offering innovative solutions tailored to meet the unique needs of our clients. With a strong commitment to quality and attention to detail, we ensure every project exceeds expectations.
                 </p>
 
                 <div className="row">
@@ -44,15 +41,15 @@ const About = () => {
                     <ul>
                       <li>
                         <i className="flaticon-checked"></i>
-                        Advanced caching
+                        Robust Performance Optimization
                       </li>
                       <li>
                         <i className="flaticon-checked"></i>
-                        Unlimited applications
+                        Scalable and Flexible Solutions
                       </li>
                       <li>
                         <i className="flaticon-checked"></i>
-                        PHP 7 ready transfer
+                        Cutting-Edge Technology Integration
                       </li>
                     </ul>
                   </div>
@@ -61,22 +58,22 @@ const About = () => {
                     <ul>
                       <li>
                         <i className="flaticon-checked"></i>
-                        PHP ready serves
+                        Reliable Infrastructure Support
                       </li>
                       <li>
                         <i className="flaticon-checked"></i>
-                        24/7 Free extra support
+                        24/7 Dedicated Customer Service
                       </li>
                       <li>
                         <i className="flaticon-checked"></i>
-                        Optimized stack
+                        Streamlined Workflow Processes
                       </li>
                     </ul>
                   </div>
                 </div>
 
                 <Link href="/about" className="default-btn">
-                  Learn More
+                  Discover More
                 </Link>
               </div>
             </div>

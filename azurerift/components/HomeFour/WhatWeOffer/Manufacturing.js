@@ -7,19 +7,15 @@ import offerImg from "../../../public/images/offer4.png";
 const Manufacturing = () => {
   return (
     <>
-      <div className="row  align-items-center">
+      <div className="row align-items-center">
         <div className="col-lg-6">
           <div className="industries-content">
             <h3>Manufacturing</h3>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est
-              atque recusandae esse alias reprehenderit.
+              Harness the power of cutting-edge technology to revolutionize manufacturing processes and drive operational excellence.
             </p>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea
-              doloribus molestias illo ad aperiam quo natus voluptatum, eos
-              laboriosam vel deserunt? Ab rerum eaque aperiam sequi dolore minus
-              itaque eos!
+              From automation to smart systems, our solutions help manufacturers boost productivity, enhance efficiency, and reduce costs while maintaining quality and safety standards.
             </p>
 
             <div className="row">
@@ -27,15 +23,15 @@ const Manufacturing = () => {
                 <ul className="industries-item">
                   <li>
                     <i className="flaticon-checked"></i>
-                    Opportunities
+                    Process Automation
                   </li>
                   <li>
                     <i className="flaticon-checked"></i>
-                    Creating
+                    Innovation in Production
                   </li>
                   <li>
                     <i className="flaticon-checked"></i>
-                    Industries
+                    Sustainable Practices
                   </li>
                 </ul>
               </div>
@@ -44,15 +40,15 @@ const Manufacturing = () => {
                 <ul className="industries-item">
                   <li>
                     <i className="flaticon-checked"></i>
-                    Security
+                    Operational Efficiency
                   </li>
                   <li>
                     <i className="flaticon-checked"></i>
-                    Highest
+                    Data-Driven Decisions
                   </li>
                   <li>
                     <i className="flaticon-checked"></i>
-                    Priority
+                    Quality Assurance
                   </li>
                 </ul>
               </div>

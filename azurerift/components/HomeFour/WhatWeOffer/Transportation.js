@@ -12,14 +12,10 @@ const Transportation = () => {
           <div className="industries-content">
             <h3>Transportation</h3>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est
-              atque recusandae esse alias reprehenderit.
+              Revolutionizing the transportation industry through smart solutions and advanced technologies.
             </p>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea
-              doloribus molestias illo ad aperiam quo natus voluptatum, eos
-              laboriosam vel deserunt? Ab rerum eaque aperiam sequi dolore minus
-              itaque eos!
+              Our services improve efficiency in logistics, mobility, and transportation systems by leveraging automation, data analytics, and real-time tracking for seamless operations.
             </p>
 
             <div className="row">
@@ -27,15 +23,15 @@ const Transportation = () => {
                 <ul className="industries-item">
                   <li>
                     <i className="flaticon-checked"></i>
-                    Security
+                    Real-Time Tracking
                   </li>
                   <li>
                     <i className="flaticon-checked"></i>
-                    Highest
+                    Autonomous Vehicles
                   </li>
                   <li>
                     <i className="flaticon-checked"></i>
-                    Priority
+                    Fleet Optimization
                   </li>
                 </ul>
               </div>
@@ -44,15 +40,15 @@ const Transportation = () => {
                 <ul className="industries-item">
                   <li>
                     <i className="flaticon-checked"></i>
-                    Opportunities
+                    Sustainability
                   </li>
                   <li>
                     <i className="flaticon-checked"></i>
-                    Creating
+                    Efficiency Boost
                   </li>
                   <li>
                     <i className="flaticon-checked"></i>
-                    Industries
+                    Cost Reduction
                   </li>
                 </ul>
               </div>

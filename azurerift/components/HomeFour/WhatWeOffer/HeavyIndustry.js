@@ -18,13 +18,10 @@ const HeavyIndustry = () => {
           <div className="industries-content">
             <h3>Heavy Industry</h3>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est
-              atque recusandae esse alias reprehenderit.
+              Transforming heavy industries with advanced technologies and automation to drive efficiency and innovation.
             </p>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea
-              doloribus molestias illo ad aperiam quo natus voluptatum, eos
-              laboriosam vel deserunt?
+              Our solutions help industries like mining, construction, and energy maximize productivity, reduce costs, and enhance safety through intelligent systems and data-driven insights.
             </p>
 
             <div className="row">
@@ -32,15 +29,15 @@ const HeavyIndustry = () => {
                 <ul className="industries-item">
                   <li>
                     <i className="flaticon-checked"></i>
-                    Opportunities
+                    Industrial Automation
                   </li>
                   <li>
                     <i className="flaticon-checked"></i>
-                    Creating
+                    Advanced Robotics
                   </li>
                   <li>
                     <i className="flaticon-checked"></i>
-                    Industries
+                    Smart Manufacturing
                   </li>
                 </ul>
               </div>
@@ -49,15 +46,15 @@ const HeavyIndustry = () => {
                 <ul className="industries-item">
                   <li>
                     <i className="flaticon-checked"></i>
-                    Security
+                    Predictive Maintenance
                   </li>
                   <li>
                     <i className="flaticon-checked"></i>
-                    Highest
+                    Operational Efficiency
                   </li>
                   <li>
                     <i className="flaticon-checked"></i>
-                    Priority
+                    Safety Innovations
                   </li>
                 </ul>
               </div>

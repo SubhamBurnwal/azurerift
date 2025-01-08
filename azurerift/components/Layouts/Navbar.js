@@ -4,7 +4,8 @@ import Link from "next/link";
 import Image from "next/image";
 
 import logo from "../../public/images/white-logo.png";
-
+import svg from "../../public/images/svg/gptw.svg";
+import ServicesDropdown from './ServicesDropdown';
 const Navbar = () => {
   // Add active class
   const [currentPath, setCurrentPath] = useState("");
@@ -66,172 +67,40 @@ const Navbar = () => {
               <ul className="navbar-nav m-auto">
                 <li className="nav-item">
                   <Link
-                    href="#"
-                    className="nav-link"
-                    onClick={(e) => e.preventDefault()}
+                    href="/"
+                    className={`nav-link ${currentPath == "/" && "active"}`}
                   >
-                    Home <i className="bx bx-chevron-down"></i>
+                    Home
                   </Link>
-
-                  <ul className="dropdown-menu">
-                    <li className="nav-item">
-                      <Link
-                        href="/"
-                        className={`nav-link ${currentPath == "/" && "active"}`}
-                      >
-                        Home One
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link
-                        href="/index-2/"
-                        className={`nav-link ${
-                          currentPath == "/index-2/" && "active"
-                        }`}
-                      >
-                        Home Two
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link
-                        href="/index-3/"
-                        className={`nav-link ${
-                          currentPath == "/index-3/" && "active"
-                        }`}
-                      >
-                        Home Three
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link
-                        href="/index-4/"
-                        className={`nav-link ${
-                          currentPath == "/index-4/" && "active"
-                        }`}
-                      >
-                        Home Four
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link
-                        href="/index-5/"
-                        className={`nav-link ${
-                          currentPath == "/index-5/" && "active"
-                        }`}
-                      >
-                        Home Five
-                      </Link>
-                    </li>
-                  </ul>
                 </li>
 
+                <li className="nav-item">
+                  <Link
+                    href="/about/"
+                    className={`nav-link ${currentPath == "/about/" && "active"}`}
+                  >
+                    About
+                  </Link>
+                </li>
+
+                <li className="nav-item">
+                  <Link
+                    href="/services/"
+                    className={`nav-link ${currentPath == "/services/" && "active"}`}
+                  >
+                    Services
+                  </Link>
+                    {/* <ServicesDropdown currentPath={currentPath} /> */}
+
+                </li>
+
+                {/* 
                 <li className="nav-item">
                   <Link
                     href="#"
                     className="nav-link"
                     onClick={(e) => e.preventDefault()}
                   >
-                    About <i className="bx bx-chevron-down"></i>
-                  </Link>
-
-                  <ul className="dropdown-menu">
-                    <li className="nav-item">
-                      <Link
-                        href="/about/"
-                        className={`nav-link ${
-                          currentPath == "/about/" && "active"
-                        }`}
-                      >
-                        About Style One
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link
-                        href="/about-2/"
-                        className={`nav-link ${
-                          currentPath == "/about-2/" && "active"
-                        }`}
-                      >
-                        About Style Two
-                      </Link>
-                    </li>
-                  </ul>
-                </li>
-
-                <li className="nav-item">
-                  <Link
-                    href="#"
-                    className="nav-link"
-                    onClick={(e) => e.preventDefault()}
-                  >
-                    Services <i className="bx bx-chevron-down"></i>
-                  </Link>
-
-                  <ul className="dropdown-menu">
-                    <li className="nav-item">
-                      <Link
-                        href="/services/"
-                        className={`nav-link ${
-                          currentPath == "/services/" && "active"
-                        }`}
-                      >
-                        Services Style One
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link
-                        href="/services/style-2/"
-                        className={`nav-link ${
-                          currentPath == "/services/style-2/" && "active"
-                        }`}
-                      >
-                        Services Style Two
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link
-                        href="/services/style-3/"
-                        className={`nav-link ${
-                          currentPath == "/services/style-3/" && "active"
-                        }`}
-                      >
-                        Services Style Three
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link
-                        href="/services/style-4/"
-                        className={`nav-link ${
-                          currentPath == "/services/style-4/" && "active"
-                        }`}
-                      >
-                        Services Style Four
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link
-                        href="/services/service-details/"
-                        className={`nav-link ${
-                          currentPath == "/services/service-details/" && "active"
-                        }`}
-                      >
-                        Service Details
-                      </Link>
-                    </li>
-                  </ul>
-                </li>
-
-                <li className="nav-item">
-                  <Link href="#" onClick={(e) => e.preventDefault()}>
                     Pages <i className="bx bx-chevron-down"></i>
                   </Link>
 
@@ -346,10 +215,15 @@ const Navbar = () => {
                       </Link>
                     </li>
                   </ul>
-                </li>
+                </li> */}
 
+                {/* 
                 <li className="nav-item">
-                  <Link href="#" onClick={(e) => e.preventDefault()}>
+                  <Link
+                    href="#"
+                    className="nav-link"
+                    onClick={(e) => e.preventDefault()}
+                  >
                     News <i className="bx bx-chevron-down"></i>
                   </Link>
 
@@ -388,46 +262,27 @@ const Navbar = () => {
                     </li>
                   </ul>
                 </li>
+                */}
 
                 <li className="nav-item">
                   <Link
-                    href="#"
-                    className="nav-link"
-                    onClick={(e) => e.preventDefault()}
+                    href="/contact/"
+                    className={`nav-link ${currentPath == "/contact/" && "active"}`}
                   >
-                    Contact <i className="bx bx-chevron-down"></i>
+                    Contact
                   </Link>
-
-                  <ul className="dropdown-menu">
-                    <li className="nav-item">
-                      <Link
-                        href="/contact/"
-                        className={`nav-link ${
-                          currentPath == "/contact/" && "active"
-                        }`}
-                      >
-                        Contact Style One
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link
-                        href="/contact-2/"
-                        className={`nav-link ${
-                          currentPath == "/contact-2/" && "active"
-                        }`}
-                      >
-                        Contact Style Two
-                      </Link>
-                    </li>
-                  </ul>
                 </li>
               </ul>
 
               <div className="others-options">
-                <Link href="/auth/login/" className="default-btn">
-                  Log In <i className="bx bx-log-in-circle"></i>
-                </Link>
+{/* Commenting out the Login button */}
+                {/* <Link href="/login" className="default-btn">
+                  Login
+                </Link> */}
+
+                {/* Replacing the button with an SVG */}
+                <Image src={svg} alt="Great Place to Work" width={150} height={37} />
+
               </div>
             </div>
           </div>

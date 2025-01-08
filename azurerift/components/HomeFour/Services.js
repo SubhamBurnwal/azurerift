@@ -14,47 +14,47 @@ const servicesData = [
     iconName: "flaticon-chip",
     title: "Robotics & Drones",
     shortText:
-      "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
+      "Empowering industries with advanced robotics and drone technology to streamline operations and enhance productivity.",
     viewDetails: "/services/service-details/",
     aosDelay: "100",
   },
   {
     iconName: "flaticon-vr",
-    title: "Virtually Reality",
+    title: "Virtual Reality Solutions",
     shortText:
-      "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
+      "Creating immersive virtual experiences that drive engagement, innovation, and new possibilities for businesses.",
     viewDetails: "/services/service-details/",
     aosDelay: "200",
   },
   {
     iconName: "flaticon-blockchain",
-    title: "Blockchain Project",
+    title: "Blockchain Integration",
     shortText:
-      "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
+      "Secure and transparent blockchain solutions designed to revolutionize data management and transaction processes.",
     viewDetails: "/services/service-details/",
     aosDelay: "300",
   },
   {
     iconName: "flaticon-target",
-    title: "Image Processing",
+    title: "Image Processing Technologies",
     shortText:
-      "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
+      "Advanced image recognition and processing tools that empower businesses to automate tasks and extract valuable insights.",
     viewDetails: "/services/service-details/",
     aosDelay: "400",
   },
   {
     iconName: "flaticon-choice",
-    title: "Order Management",
+    title: "Order Management Systems",
     shortText:
-      "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
+      "Streamlining order workflows and enhancing customer satisfaction through tailored order management solutions.",
     viewDetails: "/services/service-details/",
     aosDelay: "500",
   },
   {
     iconName: "flaticon-deep-learning",
-    title: "Machine Learning",
+    title: "Machine Learning Platforms",
     shortText:
-      "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
+      "Harnessing the power of machine learning to unlock predictive analytics and drive data-driven decision-making.",
     viewDetails: "/services/service-details/",
     aosDelay: "600",
   },
@@ -67,11 +67,9 @@ const Services = () => {
         <div className="container">
           <div className="section-title home-four-section-title">
             <span>Services</span>
-            <h2>Our Professional Services For You</h2>
+            <h2>Comprehensive Solutions to Drive Your Business Forward</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
-              architecto quaerat eaque sapiente accusantium ad ut explicabo
-              consequuntur fuga quidem? Sint.
+              Our diverse range of services is designed to meet the evolving needs of modern enterprises, ensuring growth, efficiency, and technological advancement.
             </p>
           </div>
 
