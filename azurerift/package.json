@@ -1,7 +1,7 @@
 {
-    "name": "jumpx",
+    "name": "azuerift",
     "version": "2.2.0",
-    "description": "Jumpx - React Next.js AI & IT Startup Template",
+    "description": "AzureRift - Inovation on Clouds",
     "scripts": {
         "dev": "next",
         "build": "next build",
